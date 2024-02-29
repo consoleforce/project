@@ -1,5 +1,3 @@
-// services/contact/main.go
-
 package main
 
 import (
@@ -14,7 +12,7 @@ import (
 
 func main() {
 	// Инициализация подключения к БД PostgreSQL
-	db, err := postgres.ConnectDB("localhost", "5432", "user", "password", "dbname")
+	db, err := postgres.ConnectDB("localhost", "5432", "postgres", "qwerty123", "postgres")
 	if err != nil {
 		log.Fatalf("Failed to connect to the database: %v", err)
 	}

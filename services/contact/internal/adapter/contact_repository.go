@@ -1,5 +1,3 @@
-// services/contact/internal/adapter/contact_repository.go
-
 package adapter
 
 type ContactRepository interface {

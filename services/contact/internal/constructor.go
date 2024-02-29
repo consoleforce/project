@@ -1,5 +1,3 @@
-// services/contact/internal/constructor.go
-
 package internal
 
 import (

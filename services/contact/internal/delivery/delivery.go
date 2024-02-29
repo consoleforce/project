@@ -1,5 +1,3 @@
-// В пакете delivery
-
 package delivery
 
 import (
